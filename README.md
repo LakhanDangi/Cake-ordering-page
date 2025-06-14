@@ -18,6 +18,7 @@ A multi-page static website for a fictional cake shop, created using HTML and CS
 - HTML5
 - CSS3
 - AI-assisted coding (ChatGPT)
+- Cursor AI code editor
 
 ## 🔗 Pages List
 
