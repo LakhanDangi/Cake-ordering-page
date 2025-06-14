@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders - CakeDelight</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Cake<span>Delight</span></h1>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Bakeries</a>
+                <a href="orders.html" class="active">Orders</a>
+                <a href="cart.html" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">3</span>
+                </a>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-secondary">Sign Up</a>
+                    <a href="#" class="btn btn-primary">Login</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="orders-page">
+        <div class="container">
+            <h1>My Orders</h1>
+            
+            <div class="orders-container">
+                <div class="order-card">
+                    <div class="order-header">
+                        <div class="order-info">
+                            <h3>Order #12345</h3>
+                            <span class="order-date">Placed on: March 15, 2024</span>
+                        </div>
+                        <div class="order-status delivered">
+                            <i class="fas fa-check-circle"></i> Delivered
+                        </div>
+                    </div>
+                    <div class="order-items">
+                        <div class="order-item">
+                            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&auto=format" alt="Birthday Cake">
+                            <div class="item-details">
+                                <h4>Chocolate Birthday Cake</h4>
+                                <p>From: Sweet Heaven Bakery</p>
+                                <p class="price">₹799</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-footer">
+                        <div class="total-amount">
+                            <span>Total:</span>
+                            <span class="amount">₹849</span>
+                        </div>
+                        <button class="btn btn-secondary">Reorder</button>
+                    </div>
+                </div>
+
+                <div class="order-card">
+                    <div class="order-header">
+                        <div class="order-info">
+                            <h3>Order #12344</h3>
+                            <span class="order-date">Placed on: March 12, 2024</span>
+                        </div>
+                        <div class="order-status in-progress">
+                            <i class="fas fa-clock"></i> In Progress
+                        </div>
+                    </div>
+                    <div class="order-items">
+                        <div class="order-item">
+                            <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=300&auto=format" alt="Cupcakes">
+                            <div class="item-details">
+                                <h4>Assorted Cupcakes (6 pcs)</h4>
+                                <p>From: The Cake Studio</p>
+                                <p class="price">₹499</p>
+                            </div>
+                        </div>
+                        <div class="order-item">
+                            <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=300&auto=format" alt="Cheesecake">
+                            <div class="item-details">
+                                <h4>Classic Cheesecake</h4>
+                                <p>From: Royal Desserts</p>
+                                <p class="price">₹699</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-footer">
+                        <div class="total-amount">
+                            <span>Total:</span>
+                            <span class="amount">₹1,248</span>
+                        </div>
+                        <button class="btn btn-primary">Track Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 CakeDelight. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 

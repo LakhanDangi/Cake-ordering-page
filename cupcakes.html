@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcakes - CakeDelight</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Cake<span>Delight</span></h1>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Bakeries</a>
+                <a href="orders.html">Orders</a>
+                <a href="cart.html" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-secondary">Sign Up</a>
+                    <a href="#" class="btn btn-primary">Login</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="category-page">
+        <div class="category-hero cupcakes">
+            <div class="hero-content">
+                <h1>Cupcakes</h1>
+                <p>Perfect little bites of happiness</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="filters">
+                <div class="filter-group">
+                    <label>Sort By:</label>
+                    <select>
+                        <option>Popular</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Rating</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Flavors:</label>
+                    <div class="filter-options">
+                        <label class="checkbox-label">
+                            <input type="checkbox"> Chocolate
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"> Vanilla
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"> Red Velvet
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"> Fruit
+                        </label>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <label>Pack Size:</label>
+                    <div class="filter-options">
+                        <label class="checkbox-label">
+                            <input type="checkbox"> 6 Pieces
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"> 12 Pieces
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"> 24 Pieces
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1587668178277-295251f900ce?w=500&auto=format" alt="Chocolate Cupcakes">
+                        <div class="product-tags">
+                            <span class="tag bestseller">Bestseller</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Chocolate Cupcakes</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(156)</span>
+                        </div>
+                        <p class="description">Rich chocolate cupcakes with chocolate frosting</p>
+                        <div class="product-meta">
+                            <div class="pack-size">
+                                <select>
+                                    <option>6 Pieces - ₹299</option>
+                                    <option>12 Pieces - ₹549</option>
+                                    <option>24 Pieces - ₹999</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?w=500&auto=format" alt="Red Velvet Cupcakes">
+                        <div class="product-tags">
+                            <span class="tag popular">Popular</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Red Velvet Cupcakes</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(98)</span>
+                        </div>
+                        <p class="description">Classic red velvet with cream cheese frosting</p>
+                        <div class="product-meta">
+                            <div class="pack-size">
+                                <select>
+                                    <option>6 Pieces - ₹349</option>
+                                    <option>12 Pieces - ₹649</option>
+                                    <option>24 Pieces - ₹1199</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1519869325930-281384150729?w=500&auto=format" alt="Vanilla Cupcakes">
+                    </div>
+                    <div class="product-info">
+                        <h3>Rainbow Sprinkle Vanilla Cupcakes</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(87)</span>
+                        </div>
+                        <p class="description">Vanilla cupcakes with rainbow sprinkles</p>
+                        <div class="product-meta">
+                            <div class="pack-size">
+                                <select>
+                                    <option>6 Pieces - ₹279</option>
+                                    <option>12 Pieces - ₹499</option>
+                                    <option>24 Pieces - ₹899</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=500&auto=format" alt="Fruit Cupcakes">
+                        <div class="product-tags">
+                            <span class="tag new">New</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Fresh Fruit Cupcakes</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(45)</span>
+                        </div>
+                        <p class="description">Light vanilla cupcakes with fresh fruit toppings</p>
+                        <div class="product-meta">
+                            <div class="pack-size">
+                                <select>
+                                    <option>6 Pieces - ₹399</option>
+                                    <option>12 Pieces - ₹749</option>
+                                    <option>24 Pieces - ₹1399</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 CakeDelight. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 

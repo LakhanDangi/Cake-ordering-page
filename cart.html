@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - CakeDelight</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Cake<span>Delight</span></h1>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Bakeries</a>
+                <a href="orders.html">Orders</a>
+                <a href="cart.html" class="cart-icon active">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">3</span>
+                </a>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-secondary">Sign Up</a>
+                    <a href="#" class="btn btn-primary">Login</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="cart-page">
+        <div class="container">
+            <h1>Shopping Cart</h1>
+            
+            <div class="cart-container">
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&auto=format" alt="Birthday Cake">
+                        <div class="item-details">
+                            <h3>Chocolate Birthday Cake</h3>
+                            <p>From: Sweet Heaven Bakery</p>
+                            <div class="quantity-control">
+                                <button class="qty-btn">-</button>
+                                <span>1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                        </div>
+                        <div class="item-price">
+                            <p class="price">₹799</p>
+                            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="cart-item">
+                        <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=300&auto=format" alt="Cupcakes">
+                        <div class="item-details">
+                            <h3>Assorted Cupcakes (6 pcs)</h3>
+                            <p>From: The Cake Studio</p>
+                            <div class="quantity-control">
+                                <button class="qty-btn">-</button>
+                                <span>2</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                        </div>
+                        <div class="item-price">
+                            <p class="price">₹499</p>
+                            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="cart-item">
+                        <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=300&auto=format" alt="Cheesecake">
+                        <div class="item-details">
+                            <h3>Classic Cheesecake</h3>
+                            <p>From: Royal Desserts</p>
+                            <div class="quantity-control">
+                                <button class="qty-btn">-</button>
+                                <span>1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                        </div>
+                        <div class="item-price">
+                            <p class="price">₹699</p>
+                            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="suggested-items">
+                    <h3>Complete Your Celebration! 🎉</h3>
+                    <p class="suggestion-text">Add these items to make your celebration even more special</p>
+                    
+                    <div class="suggested-items-grid">
+                        <div class="suggested-item">
+                            <div class="item-image">
+                                <img src="https://images.unsplash.com/photo-1602631985686-1bb0e6a8696e?w=300&auto=format" alt="Birthday Candles Pack">
+                            </div>
+                            <div class="item-details">
+                                <h4>Musical Birthday Candles</h4>
+                                <p class="price">₹99</p>
+                                <div class="add-suggested">
+                                    <button class="btn btn-secondary btn-sm">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="suggested-item">
+                            <div class="item-image">
+                                <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=300&auto=format" alt="Party Crackers">
+                            </div>
+                            <div class="item-details">
+                                <h4>Celebration Crackers Pack</h4>
+                                <p class="price">₹149</p>
+                                <div class="add-suggested">
+                                    <button class="btn btn-secondary btn-sm">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="suggested-item">
+                            <div class="item-image">
+                                <img src="https://images.unsplash.com/photo-1590161257844-3f0c58e4b410?w=300&auto=format" alt="Birthday Decoration Kit">
+                            </div>
+                            <div class="item-details">
+                                <h4>Birthday Decoration Kit</h4>
+                                <p class="price">₹299</p>
+                                <div class="add-suggested">
+                                    <button class="btn btn-secondary btn-sm">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="suggested-item">
+                            <div class="item-image">
+                                <img src="https://images.unsplash.com/photo-1596826360548-4bfaf4eb2325?w=300&auto=format" alt="Premium Candle Set">
+                            </div>
+                            <div class="item-details">
+                                <h4>Premium Number Candles</h4>
+                                <p class="price">₹199</p>
+                                <div class="add-suggested">
+                                    <button class="btn btn-secondary btn-sm">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart-summary">
+                    <h2>Order Summary</h2>
+                    <div class="summary-item">
+                        <span>Subtotal</span>
+                        <span>₹2,496</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Delivery Fee</span>
+                        <span>₹50</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Tax</span>
+                        <span>₹124.80</span>
+                    </div>
+                    <div class="summary-item total">
+                        <span>Total</span>
+                        <span>₹2,670.80</span>
+                    </div>
+
+                    <div class="payment-methods">
+                        <h3>Select Payment Method</h3>
+                        <div class="payment-options">
+                            <label class="payment-option">
+                                <input type="radio" name="payment" value="upi" checked>
+                                <span class="radio-custom"></span>
+                                <i class="fas fa-mobile-alt"></i>
+                                UPI Payment
+                            </label>
+                            <div class="upi-input">
+                                <input type="text" placeholder="Enter UPI ID (e.g., name@upi)">
+                                <button class="verify-btn">Verify</button>
+                            </div>
+                            <label class="payment-option">
+                                <input type="radio" name="payment" value="card">
+                                <span class="radio-custom"></span>
+                                <i class="fas fa-credit-card"></i>
+                                Card Payment
+                            </label>
+                            <label class="payment-option">
+                                <input type="radio" name="payment" value="cod">
+                                <span class="radio-custom"></span>
+                                <i class="fas fa-money-bill-wave"></i>
+                                Cash on Delivery
+                            </label>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary checkout-btn">
+                        Proceed to Payment
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 CakeDelight. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Cakes - CakeDelight</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Cake<span>Delight</span></h1>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Bakeries</a>
+                <a href="orders.html">Orders</a>
+                <a href="cart.html" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-secondary">Sign Up</a>
+                    <a href="#" class="btn btn-primary">Login</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="category-page">
+        <div class="category-hero ice-cream">
+            <div class="hero-content">
+                <h1>Ice Cream Cakes</h1>
+                <p>The perfect blend of cake and ice cream</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="filters">
+                <div class="filter-group">
+                    <label>Sort By:</label>
+                    <select>
+                        <option>Popular</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Rating</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Ice Cream Flavors:</label>
+                    <div class="filter-options">
+                        <label class="checkbox-label">
+                            <input type="checkbox"> Chocolate
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"> Vanilla
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"> Strawberry
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"> Mixed Flavors
+                        </label>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <label>Size:</label>
+                    <div class="filter-options">
+                        <label class="checkbox-label">
+                            <input type="checkbox"> Small (500g)
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"> Medium (1kg)
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox"> Large (2kg)
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=500&auto=format" alt="Chocolate Ice Cream Cake">
+                        <div class="product-tags">
+                            <span class="tag bestseller">Bestseller</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Triple Chocolate Ice Cream Cake</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(178)</span>
+                        </div>
+                        <p class="description">Layers of chocolate cake and chocolate ice cream</p>
+                        <div class="product-meta">
+                            <div class="weight">
+                                <select>
+                                    <option>Small (500g) - ₹699</option>
+                                    <option>Medium (1kg) - ₹1299</option>
+                                    <option>Large (2kg) - ₹2399</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=500&auto=format" alt="Mixed Berry Ice Cream Cake">
+                        <div class="product-tags">
+                            <span class="tag new">New</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mixed Berry Ice Cream Cake</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(92)</span>
+                        </div>
+                        <p class="description">Vanilla cake with mixed berry ice cream</p>
+                        <div class="product-meta">
+                            <div class="weight">
+                                <select>
+                                    <option>Small (500g) - ₹749</option>
+                                    <option>Medium (1kg) - ₹1399</option>
+                                    <option>Large (2kg) - ₹2599</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1516559828984-fb3b99548b21?w=500&auto=format" alt="Vanilla Caramel Ice Cream Cake">
+                    </div>
+                    <div class="product-info">
+                        <h3>Vanilla Caramel Ice Cream Cake</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(64)</span>
+                        </div>
+                        <p class="description">Vanilla ice cream with caramel swirls</p>
+                        <div class="product-meta">
+                            <div class="weight">
+                                <select>
+                                    <option>Small (500g) - ₹649</option>
+                                    <option>Medium (1kg) - ₹1199</option>
+                                    <option>Large (2kg) - ₹2199</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500&auto=format" alt="Strawberry Cheesecake Ice Cream Cake">
+                        <div class="product-tags">
+                            <span class="tag popular">Popular</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Strawberry Cheesecake Ice Cream Cake</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(156)</span>
+                        </div>
+                        <p class="description">Cheesecake ice cream with fresh strawberries</p>
+                        <div class="product-meta">
+                            <div class="weight">
+                                <select>
+                                    <option>Small (500g) - ₹799</option>
+                                    <option>Medium (1kg) - ₹1499</option>
+                                    <option>Large (2kg) - ₹2799</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 CakeDelight. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
